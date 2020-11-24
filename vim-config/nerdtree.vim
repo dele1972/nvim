@@ -7,7 +7,7 @@
 " *** Config Section ***
   let g:NERDTreeShowHidden = 1
   let g:NERDTreeMinimalUI = 1
-  let g:NERDTreeIgnore = []
+  let g:NERDTreeIgnore = ['\.git$','^node_modules$']
   let g:NERDTreeStatusline = ''
 
   " Automaticaly close nvim if NERDTree is only thing left open
@@ -15,3 +15,6 @@
 
   " Toggle
   nnoremap <silent> <C-b> :NERDTreeToggle<CR>
+
+  " nerdtree-git-plugin (https://github.com/Xuyuanp/nerdtree-git-plugin)
+    let g:NERDTreeGitStatusUseNerdFonts = 1 " you should install nerdfonts by yourself. default: 0

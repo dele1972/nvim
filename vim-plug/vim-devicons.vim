@@ -1,7 +1,8 @@
 " VIM-DEVICONS
+"
+" https://github.com/ryanoasis/vim-devicons
+" see this project repo readme.md because of the needed installed font!
 
-" *** Config Section ***
-"  call plug#begin("~/.vim/plugged")
-    Plug 'ryanoasis/vim-devicons'
-"  call plug#end()
+" *** Plug Section ***
+  Plug 'ryanoasis/vim-devicons'
 

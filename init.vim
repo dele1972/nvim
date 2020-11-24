@@ -14,7 +14,6 @@ set cc=100                   " set an 80 column border for good coding style
 filetype plugin indent on   " allows auto-indenting depending on file type
 syntax on                   " syntax highlighting
 
-set encoding=UTF-8          " https://github.com/ryanoasis/vim-devicons
 "setup vim-plug {{{
 
   "Note: install vim-plug if not present
@@ -32,6 +31,10 @@ set encoding=UTF-8          " https://github.com/ryanoasis/vim-devicons
   endif
 
 "}}}
+
+" @ToDo
+" install https://github.com/iamcco/markdown-preview.nvim
+
   call plug#begin('~/.config/nvim/autoload/plugged')
 
     source ~/.config/nvim/vim-plug/theme-dracula.vim

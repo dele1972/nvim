@@ -4,9 +4,8 @@
 " https://github.com/preservim/nerdtree
 " https://vimawesome.com/plugin/nerdtree-red
 
-" *** Pluig Section ***
-  "call plug#begin("~/.vim/plugged")
-  "call plug#begin()
-    Plug 'preservim/nerdtree'
-    "Plug 'scrooloose/nerdtree'
-  "call plug#end()
+" *** Plug Section ***
+  Plug 'preservim/nerdtree'
+
+  " additional Plugins
+  Plug 'Xuyuanp/nerdtree-git-plugin'  " https://github.com/Xuyuanp/nerdtree-git-plugin
