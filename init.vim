@@ -37,21 +37,23 @@ syntax on                   " syntax highlighting
 
   call plug#begin('~/.config/nvim/autoload/plugged')
 
-    source ~/.config/nvim/vim-plug/theme-dracula.vim
+    source ~/.config/nvim/vim-plug/theme.vim
 
-    source ~/.config/nvim/vim-plug/nerdtree.vim
-    source ~/.config/nvim/vim-plug/vim-devicons.vim
-
-    source ~/.config/nvim/vim-plug/fzf.vim
+    source ~/.config/nvim/vim-plug/filehandling.vim
+"    source ~/.config/nvim/vim-plug/nerdtree.vim
+"    source ~/.config/nvim/vim-plug/vim-devicons.vim
+"
+"    source ~/.config/nvim/vim-plug/fzf.vim
 
   call plug#end()
 
 " configs for themes
-source ~/.config/nvim/vim-config/theme-dracula.vim
+source ~/.config/nvim/vim-config/theme.vim
 
 " configs for installed plugins
-source ~/.config/nvim/vim-config/nerdtree.vim
-source ~/.config/nvim/vim-config/fzf.vim
+source ~/.config/nvim/vim-config/filehandling.vim
+"source ~/.config/nvim/vim-config/nerdtree.vim
+"source ~/.config/nvim/vim-config/fzf.vim
 
 " other configs
 source ~/.config/nvim/vim-config/setup-xclip.vim
