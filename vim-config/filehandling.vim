@@ -40,8 +40,8 @@
   "   whatever you use):
   "      - `export FZF_DEFAULT_COMMAND='rg --files --hidden --follow --no-ignore-vcs'`
   "      - `export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"`
-  "      - `export FZF_DEFAULT_OPTS='--height 96% --reverse --preview "cat {}"'`
-  "      - `alias fzfi='rg --files --hidden --follow --no-ignore-vcs -g "!{node_modules,.git}" | fzf'`
+  "      - `export FZF_DEFAULT_OPTS='--height 96% --reverse --preview \"cat {}"'`
+  "      - `alias fzfi='rg --files --hidden --follow --no-ignore-vcs -g \"!{node_modules,.git}" | fzf'`
   "   3. reload shell config (without restarting): `source ~/.zshrc` or `.~/.zshrc` (respectively with the config file of your used shell)
   "   4. add this command and nnoremap to your vim config:
   command! -bang -nargs=*  All
