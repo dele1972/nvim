@@ -1,7 +1,8 @@
 " THEME DRACULA 
+  Plug 'dracula/vim'
 
-" *** Config Section ***
-"  call plug#begin("~/.vim/plugged")
-    Plug 'dracula/vim'
-"  call plug#end()
+" gruvbox (morhetz)
+  " https://github.com/morhetz/gruvbox
+  " for cholor sheme
+  "Plug 'morhetz/gruvbox'
 

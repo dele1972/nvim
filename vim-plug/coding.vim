@@ -12,7 +12,7 @@
   " https://github.com/vim-airline/vim-airline
   Plug 'bling/vim-airline'
 
-  " gruvbox (morhetz)
-  " for cholor sheme
-  " Plug 'morhetz/gruvbox'
+  " fzf-checkout
+  " https://github.com/stsewd/fzf-checkout.vim
+  Plug 'stsewd/fzf-checkout.vim'
 

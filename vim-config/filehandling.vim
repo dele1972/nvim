@@ -31,6 +31,11 @@
     \ 'ctrl-s': 'split',
     \ 'ctrl-v': 'vsplit'
     \}
+  " this is the fzf layout setting of ThePrimeagen
+  let g:fzf_layout = { 'window': { 'width': 0.8, 'height': 0.8 } }
+  " ThePrimeagen set this to reverse list (https://youtu.be/73RulF4Md4Q?t=52)
+  let $FZF_DEFAULT_OPTS='--reverse'
+
 
   " additional: ripgrep
   " https://github.com/BurntSushi/ripgrep
